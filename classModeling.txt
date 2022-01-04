@@ -1,0 +1,40 @@
+Animal
+------
++ name: string
++ colors: list
++ size: string
++ sex: string
++ age: int
+-
+------
++ move()
++ make_noise()
++ eat()
++ drink()
+----------------
+
+Book
+------
++ title: string
++ author: string
++ page_count: int32
++ genre: string
++ publicationNumber: string
+------
++ displayPage()
++ getPageNumber()
+----------------
+
+Vehicle
+------
++ make: string
++ model: string
++ year: int
++ LicensePlate: string
+
+------
++ toggleEngineState()
++ brake()
++ accelerate()
++ shiftAutomatic()
++ shiftManual()
